@@ -1,0 +1,204 @@
+body{
+	background: url(../images/images.jpg);/* background was created*/
+	font-family: sans-serif;/*type of font*/
+}
+.profile_section{/*profile section was made*/
+	background:#9e9e9e;/*background for profile section*/
+	width: 350px;/*width was created*/
+    height: 450px;/*height was made*/
+	color: #2196F3;/*color was made*/
+    margin:auto;  /*margin */ 
+	margin-top: 80px;/*margin */
+	text-align:  center;
+}
+.profile{/*profile image*/
+	border-radius: 50%;/*border raduis has been madde*/
+	height: 200px; /*height*/
+	width: 200px;/*width added*/
+}
+.wrap{/*navigation bar*/
+	width: 100%;/*width added*/
+	height:100px;/*height*/
+	margin: 0 auto;/*margin */
+}
+nav{ background: black; margin-left: -10px;margin-right: -10px;}/* nav was made */
+nav ul{ margin: 0; display:flex; flex-direction: row;  justify-content: flex-end; flex-flow: row wrap;}/* nav was made */
+nav ul li {list-style: none; margin: 0.6%; padding:1%;}/* nav was made */
+nav ul li a {color: white; text-decoration: none;text-transform: capitalize;} /* nav was made */ 
+h1{/*header*/
+	font-size: 30px;/* font was made */
+	letter-spacing: 5px;
+	color: white; /*color was set */
+}
+p{/*pragraph was made*/
+ font-weight: 200;/*font was made */
+ letter-spacing: 2px;/*letter spacing was made*/
+}
+
+.wrap nav ul li a:hover{/*hover was created*/
+	color:#bd2135;/*color was set */
+	} 
+	
+.footer/*footer section was made*/
+{
+	width: 100%;/*width added*/
+	height: 150px;/*height*/
+	border-radius: 5px;/*bprder radius was made*/
+	/*background:rgba(47,49,49,0.91);/* background was made*/
+	position: absolute;/*position was made*/
+	flex-basis:100px;/*flex-basis was made*/
+
+}
+.footer h2{ /*footer was made*/
+	color: white;/*color was set */
+	font-weight: 200;/*font was made */
+	display: flex;	/*flex was made*/
+	justify-content: flex-end;/*justify content was made*/
+	margin-right: 20px;/*margin was added */
+}
+.footer_las h2{/*footer_las has made*/
+	color: white;/*color was set */
+	font-weight: 200;/* font weight was created*/
+	display: flex;	/* flex was made*/
+	justify-content: flex-end;/*justify content made*/
+	margin-right: 20px;/*margin was added*/
+	margin-bottom: -20px;/*margin bottom*/
+}
+.footer_slas h2{/*footer was made*/
+	color: white;/*color was set */
+	font-weight: 200;/*font weight was made*/
+	display: flex;/*flex was made*/	
+	justify-content: flex-end;/*justify content was made*/
+	margin-top: 500px;/*margin was added*/
+	margin-bottom: -50px;/*margin was added*/
+	margin-right: 20px;	/*margin was added*/
+}
+.footer_cv h2{/*footer was created*/
+	color: white;/*color was set */
+	font-weight: 200;/*font weight added*/
+	display: flex;	/*flex has been made*/
+	justify-content: flex-end;/*justify content has been made*/
+	margin-right: 20px;/*margin added*/
+	margin-top: -80px;/*margin added*/
+	
+}
+.profile_pic{/*profile pic created*/
+	border-radius: 50%;/*border raduis has been made*/
+	height: 150px;/*height has added*/
+	width: 150px;/*width added*/
+}
+.gold{/*gold class created*/
+	border-radius: 60%;/*border raduis made*/
+	height: 160px;/*height*/
+	width: 160px;/*width added*/
+}
+.cv{
+	color: black;/*color was set */
+	margin-bottom: 100px;/*margin added*/
+}	
+.nav1 ul{ /*nav created*/
+	display: flex;/* flex direction*/
+	justify-content: flex-start;/* flex direction*/
+	flex-direction: row;/* flex direction*/
+	margin-left: 30px;/* margin was set */
+
+}
+.nav1 ul li{ /*nav1 was made*/
+	display: inline-block;/*flex property has benn made*/
+	list-style-type: none;/*style has been created*/
+	font-size: 30px;/* font size has been madde 30px*/
+}
+.nav1 ul li a{ /* navigation bar has been made*/
+	color:white;/*color was set */
+	text-decoration: none;/*text was made*/
+	margin-right: 40px;/*margin added*/
+}
+.nav1 ul li:hover{ /*hover has made*/
+	background:rgb(61,120,165);
+}
+.paragraph{/*paragraph has been created*/
+	color:black;/*color was set */
+	padding: 10px;/*padding was created */
+    margin-top: 80px;/*margin top has been created*/
+	margin: auto;/*margin auto has been made*/
+}
+.detail{/*detail was made*/
+	width: 700px;/*width added*/
+	height: 400px;/*height was added */
+	color: white;	/*color was set */
+	line-height: 30px;/* line height was made*/
+    padding-left: 100px;/*padding was created */
+}
+form{/*form class created*/
+	margin-left: 1px;/*margin was added*/
+}
+#name{/*name class created*/
+	width: 300px;/*width added*/
+	height: 30px;/*height was added */
+	padding: 3px;/*padding was created */
+    border-radius: 4px;/* border was created */
+	border:1px solid;/* border was created */
+}
+#comment{/*comments was made*/
+	width: 300px;/*width added*/
+	height: 140px;/*height was added */
+	border-radius: 5px;/* border was created */
+}
+#sub{/*sub class created*/
+	width: 100px;/*width added*/
+	background:red;/*background has been made red*/
+	height: 40px;/*height was added */
+	border:0px;/* border was created */
+    font-size: 10px;/*font size created*/
+}
+.extra{/* extra class was made*/
+	
+    line-height: 20px;/*line height has been made*/
+	color: red;/*color was set */
+}
+.map{/*map was created*/
+	width: 250px;/*width was added */
+	height: 300px;/*height added*/
+	display:flex;/* flex direction*/
+	justify-content:flex-end;/*justify content has been made*/
+	margin-bottom: 200px;/*margin was added*/
+	position: absolute;/* position has been absoulte*/
+	clear: both;/* clear both has been made*/
+	flex-direction: row;/* flex direction*/
+	margin-left: 700px;/*margin was added*/
+	margin-top:-350px;/*margin was added*/
+	margin-right: -300px;/*margin was added*/
+}
+.picture{/*picture class was created*/
+	display: flex;/*flex has been made*/
+	justify-content: flex-start;/*justify content has been made*/
+	width: 40px;/*width added*/
+	height: 50px;/*height was added */
+	padding: 5px;/*padding was created */
+	position: absolute;/*psition has benn made absoulte*/
+}
+.first{/* first class has been created*/
+	margin-left: 100px;/*margin was added*/
+	margin-top: 50px;/*margin was added*/
+}
+.second{/*second class was created*/
+	 margin-left: 100px;/*margin was added*/
+	 margin-top: 50px; /*margin was added*/
+}
+.third{/*third class created*/
+	margin-left:100px;/*margin was added*/
+	margin-top: 50px; /*margin was added*/
+}
+.first img{/*first img made*/
+	width: 100px;/*width added*/
+	height:100px;/*height was added */
+}
+.second img{/*second img class*/
+	width: 120px;/*width was added */
+	height: 120px;/*height was added */
+}	
+.third img{/*third img class*/
+	width: 100px; /*width was added */
+	height:100px;/*height was added */
+}	
+
